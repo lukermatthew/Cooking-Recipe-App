@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { projectFireStore } from "../../firebase/config";
-import "./Create.css";
+import "./create.css";
 
 export default function Create() {
   const [title, setTitle] = useState("");
