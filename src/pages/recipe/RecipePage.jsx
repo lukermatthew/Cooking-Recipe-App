@@ -1,7 +1,7 @@
 import { projectFireStore } from "../../firebase/config";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import "./Recipe.css";
+import "./recipe.css";
 
 const Recipe = () => {
   const { id } = useParams();
