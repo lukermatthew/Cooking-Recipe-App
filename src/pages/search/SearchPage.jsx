@@ -1,7 +1,7 @@
 import { useFetch } from "../../hooks/useFetch";
 import { useLocation } from "react-router-dom";
 import RecipeList from "../../components/RecipeList/RecipeList";
-import "./Search.css";
+import "./search.css";
 
 const SearchPage = () => {
   const queryString = useLocation().search;
